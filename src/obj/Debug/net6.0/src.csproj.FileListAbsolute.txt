@@ -1,0 +1,15 @@
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\src.exe
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\src.deps.json
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\src.runtimeconfig.json
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\src.dll
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\ref\src.dll
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\bin\Debug\net6.0\src.pdb
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.csproj.AssemblyReference.cache
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.AssemblyInfoInputs.cache
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.AssemblyInfo.cs
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.csproj.CoreCompileInputs.cache
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.dll
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\ref\src.dll
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.pdb
+c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\src\obj\Debug\net6.0\src.genruntimeconfig.cache
