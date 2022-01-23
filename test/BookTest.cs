@@ -13,11 +13,12 @@ namespace GradeBook.Test{
             book.AddGrade(77.3);
             
             // Act
-            
+            var results = book.GetStatistics();
 
             // Assert
-
-
+            Assert.Equal(85.6, results.Average, 1);
+            Assert.Equal(90.5, results.Max, 1);
+            Assert.Equal(77.3, results.Min, 1);
         }
     }
 }

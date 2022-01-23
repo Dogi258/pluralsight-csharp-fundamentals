@@ -13,11 +13,15 @@ namespace GradeBook{
         {
             grades.Add(grade);
         }
-        public void ShowStatistics()
+        public Statistics GetStatistics()
         {
-            System.Console.WriteLine($"the lowest grade is {grades.Min()}");
-            System.Console.WriteLine($"the lowest grade is {grades.Max()}");
-            System.Console.WriteLine($"the lowest grade is {grades.Average()}");
+            Statistics result = new Statistics();
+
+            result.Average = grades.Average();
+            result.Min = grades.Min();
+            result.Max = grades.Max();
+
+            return result;
         }
     }
 }

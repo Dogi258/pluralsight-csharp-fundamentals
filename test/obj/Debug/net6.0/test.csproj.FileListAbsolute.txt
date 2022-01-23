@@ -98,3 +98,8 @@ C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\obj\Debug\net6.0\ref
 C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\obj\Debug\net6.0\test.pdb
 C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\obj\Debug\net6.0\test.genruntimeconfig.cache
 c:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\src.deps.json
+C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\src.runtimeconfig.json
+C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\src.exe
+C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\src.dll
+C:\Users\Daniel\GitHub\pluralsight-csharp-fundamentals\test\bin\Debug\net6.0\src.pdb

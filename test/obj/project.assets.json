@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "src/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/src.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/src.dll": {}
+        }
       }
     }
   },
@@ -5962,12 +5972,18 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "src/1.0.0": {
+      "type": "project",
+      "path": "../src/src.csproj",
+      "msbuildProject": "../src/src.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
+      "src >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -5998,7 +6014,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\src.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\src.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
