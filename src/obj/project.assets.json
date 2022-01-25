@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
+    "C:\\Users\\dmarti22\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\src.csproj",
+      "projectUniqueName": "C:\\Users\\dmarti22\\repos\\pluralsight-csharp-fundamentals\\src\\src.csproj",
       "projectName": "src",
-      "projectPath": "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\src.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\obj\\",
+      "projectPath": "C:\\Users\\dmarti22\\repos\\pluralsight-csharp-fundamentals\\src\\src.csproj",
+      "packagesPath": "C:\\Users\\dmarti22\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dmarti22\\repos\\pluralsight-csharp-fundamentals\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dmarti22\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

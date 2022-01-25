@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FbmBQ9hmvIl7UsIARO8WXgVmvpErWSE4BHldSSLr0g5XScvqvfgFjC42xBW59yd7lg7eOmMb3tEfroHARATFag==",
+  "dgSpecHash": "AkZ3AxFgG5TCORufeGEYgYiqgvvmcMpekcZwAHv2I6m4XYZ9E4LVDh+y4PCj5juSa8HdT/gCl+v5xtgm8KGaug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel\\GitHub\\pluralsight-csharp-fundamentals\\src\\src.csproj",
+  "projectFilePath": "C:\\Users\\dmarti22\\repos\\pluralsight-csharp-fundamentals\\src\\src.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

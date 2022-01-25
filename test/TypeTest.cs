@@ -5,6 +5,53 @@ namespace GradeBook.Test{
     public class TypeTest
     {
         [Fact]
+        public void StringsBehaveLilkeValueTypes(){
+            string name = "Daniel";
+
+            var upper = MakeUppercase(name);
+
+            Assert.Equal("Daniel", name);
+            Assert.Equal("DANIEL", upper);
+        }
+
+        public string MakeUppercase(string parameter){
+            return parameter.ToUpper();
+        }
+
+        [Fact]
+        public void ValueTypeAlsoPassByReference()
+        {
+            // Given
+            var x = GetInt();
+            SetInt(ref x);
+            // When
+        
+            // Then
+            Assert.Equal(42, x);
+        }
+
+        private void SetInt(ref int x) {
+            x = 42;
+        }
+
+        private int GetInt(){
+            return 3;
+        }
+
+        [Fact]
+        public void CSharpCanPassByRef()
+        {
+            // Arrange
+            Book book1 = GetBook("Book 1");
+            GetBookAndSetName(ref book1, "New Name");
+
+            // Act
+
+            // Assert
+            Assert.Equal("New Name", book1.Name);
+        }
+
+        [Fact]
         public void CSharpIsPassByValue()
         {
             // Arrange
@@ -14,13 +61,18 @@ namespace GradeBook.Test{
             // Act
 
             // Assert
-            Assert.Equal("New Name", book1.Name);
+            Assert.Equal("Book 1", book1.Name);
         }
 
         private void GetBookAndSetName(Book book, string name)
         {
             book  = new Book(name);
         }
+        private void GetBookAndSetName(ref Book book, string name)
+        {
+            book  = new Book(name);
+        }
+
         [Fact]
         public void CanSetNameFromReference()
         {
